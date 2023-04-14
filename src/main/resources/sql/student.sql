@@ -59,5 +59,3 @@ CREATE TABLE sys.marks (
                            computer_science FLOAT,
                            FOREIGN KEY (student_id) REFERENCES student(student_id)
 );
-
-
